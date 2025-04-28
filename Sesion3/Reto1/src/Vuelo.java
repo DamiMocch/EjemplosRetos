@@ -1,9 +1,9 @@
 public class Vuelo {
 //    Atributos
-    private final String codigoVuelo;
-    private String destino;
-    private String horaSalida;
-    private Pasajero asientoReservado;
+     final String codigoVuelo;
+     String destino;
+     String horaSalida;
+     Pasajero asientoReservado;
 
 //    Contructor
 

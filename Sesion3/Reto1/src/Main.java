@@ -8,7 +8,7 @@ public class Main {
 
         // Reservar asiento
         boolean reservaExitosa = v1.reservaAsiento(p1);
-        System.out.println(" Reserva exitosa: " + reservaExitosa);
+        System.out.println(" Reserva exitosa ");
 
         // Mostrar itinerario
         System.out.println("\n Itinerario:");
@@ -19,12 +19,12 @@ public class Main {
         System.out.println("\n Reserva cancelada.");
 
         // Mostrar itinerario de nuevo
-        System.out.println("\n Itinerario después de cancelación:");
+        System.out.println("\n Itinerario del vuelo:");
         System.out.println(v1.obtenerItinerario());
 
         // Reservar usando nombre y pasaporte
         boolean nuevaReserva = v1.reservaAsiento("Damaris Noemi Moctezuma Chimal", "JPNNS112233");
-        System.out.println("\n Nueva reserva con nombre y pasaporte: " + nuevaReserva);
+        
 
         // Mostrar itinerario final
         System.out.println("\n Itinerario final:");
