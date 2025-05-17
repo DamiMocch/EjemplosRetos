@@ -1,2 +1,2 @@
 # EjemplosRetos
-Carpeta de Retos y Ejercicios del curso Java
+Carpeta de Retos y Ejercicios del curso JavaBEDU
